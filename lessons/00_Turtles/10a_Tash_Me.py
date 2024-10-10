@@ -10,4 +10,12 @@ Hint: See 08a_More Turtle Programs, section 'Change the Background Image' and
 """
 
 ... # Your code here
+import turtle as turtle
+
+screen = turtle.Screen()
+screen.setup(width=600, height=600)
+screen.bgcolor('white')
+
+t = turtle.Turtle()
+
 
